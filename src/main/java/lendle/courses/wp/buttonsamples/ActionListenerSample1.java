@@ -31,6 +31,8 @@ public class ActionListenerSample1 {
         
         JButton button=new JButton("click");
         //利用 addActionListener 將 SampleActionListener 設定給 button
+        SampleActionListener I=new SampleActionListener();
+        button.addActionListener(I);
         
         //////////////////////////////////////////////////////
         frame.add(button);
